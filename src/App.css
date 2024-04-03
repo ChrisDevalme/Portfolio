@@ -496,7 +496,8 @@ body {
       font-size: 68px;
       line-height: 70px;
     }
-    .skills--section--title {
+    .skills--section--title,
+    .skills--section--card--edu {
       font-size: 28px;
       line-height: 40px;
     }
@@ -606,7 +607,11 @@ body {
       margin: 20px;
     }
   }
-  
+  @media only screen and (max-width: 1200px) {
+    .skills--section--card{
+      margin-left: -50px;
+  }
+}
   /* Hamburger menu  */
   
   .nav__hamburger {
