@@ -27,7 +27,6 @@ export default function MySkills() {
                         <h2 className="skills--section--title">{item.title}</h2>
                         <h3 className="skills--section--card--content--edu">{item.degree}</h3>
                         <h3 className="skills--section--card--content--edu">{item.attendence}</h3>
-                        
                     </div>
                 ))}
                 </div>
