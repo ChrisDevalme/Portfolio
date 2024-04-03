@@ -290,7 +290,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 32px;
-    width: fit-content;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     border-radius: 10.6px;
@@ -314,6 +314,17 @@ body {
     background: #ffffff;
     box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
 }
+  .skills--section--img-edu {
+    width: 7rem;
+    height: 7rem;
+    object-fit: scale-down;
+    padding:7px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10.6px;
+    background: #ffffff;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+}
 .skills--section--img:hover{
     border: 3px solid var(--primary);
     cursor: pointer;
@@ -331,12 +342,14 @@ body {
   flex-direction: column;
   align-items: center;
   align-self: stretch;
+  font-size: 20px;
 }
 .skills--section--title {
     color: var(--heading-color);
     font-size: 32px;
     font-weight: 700;
     line-height: 45px;
+    padding-top: 12px;
   }
   .skills--section--description {
     color: var(--black);
@@ -451,6 +464,9 @@ body {
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
+  }
+  .navbar--img--footer{
+    width: 4rem;
   }
   .footer--items > ul {
     list-style: none;
@@ -606,11 +622,33 @@ body {
     .divider {
       margin: 20px;
     }
+    .skills--section--card--content--edu{
+      font-size: 22px;
+    }
   }
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 700px) {
     .skills--section--card{
       margin-left: -50px;
   }
+  .skills--section--title,
+  .skills--section--card--edu{
+      margin-left: -50px;
+  }
+    .skills--section--title,
+    .skills--section--card--content--edu{
+      font-size: 16px;
+    }
+    .navbar--img{
+      margin-left: -60px;
+    }
+    .hero--section-description--about{
+      font-size: 16px;
+      line-height: 28px;
+    }
+    .skills--section--img{
+      width: 3.91rem;
+      height: 3.91rem;
+    }
 }
   /* Hamburger menu  */
   
