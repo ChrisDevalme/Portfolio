@@ -16,6 +16,9 @@ body {
   p {
     margin: 0;
   }
+  a{
+    text-decoration: none;
+  }
   :root {
     --primary: #0300ca;
     --heading-color: #282938;
