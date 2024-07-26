@@ -41,7 +41,7 @@
        
     ],
     "education": [
-        {
+       {
             "id": 1,
             "src": "https://www.ucc.edu/wp-content/uploads/2022/10/UC_Logo_Primary_UCNJ.png",
             "title": "Union College",
@@ -51,7 +51,7 @@
         },
         {
             "id": 2,
-            "src": "https://ga-website-production-herokuapp-com.global.ssl.fastly.net/packs/media/assets/images/logo_1200_by_627-e2f4e80d2e8073fa1b8c0a2bb36f2d46.jpg",
+            "src": "https://seeklogo.com/images/G/general-assembly-logo-D5C634F07A-seeklogo.com.png",
             "title": "General Assembly",
             "degree": "Computer Software Engineering",
             "attendence": "2023 - 2024",
@@ -59,8 +59,8 @@
         },
         {
             "id": 3,
-            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzakcfwx_K-RTY4KxsPfZbGzl9IrcW9W6aO6W_RnBBdQ&s",
-            "title": "Kean College",
+            "src": "https://1000logos.net/wp-content/uploads/2019/11/Rutgers-Scarlet-Knights-Logo.png",
+            "title": "Rutgers University",
             "degree": "Bachelor's of Science - BS, Computer Science",
             "attendence": "(In Progress) 2024 - 2026",
             "description": ""
